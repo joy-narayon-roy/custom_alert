@@ -1,1 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="/style.css" type="text/css" media="all" />
+
+    <title>Experimental File</title>
+</head>
+<body>
+    <main>
+        <button class="button" onclick="customAlert()" type="button"><i class="far fa-pencil"></i></button>
+        <section class="alert" id="alert">
+            <div class="alert__container">
+                <div class="alert__container-head">
+                    <h5 class="">Head</h5>
+                    <span onclick="dismissAlert()" class="alert__container-cancel"><i class="fa fa-times"></i></span>
+                </div>
+                <div class="alert__container-body">
+                    <p>
+                        This is Custom Disenable Alert <br>You can Write Anything. Like
+                    </p>
+                        <ul>
+                            <li>Form</li>
+                            <li>Table</li>
+                            <li>List</li>
+                        </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="/app.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>
